@@ -23,17 +23,12 @@ import { fileURLToPath } from 'node:url';
 const PACKAGE_ROOT = path.dirname(fileURLToPath(import.meta.url));
 const VIDEO_FILE = path.join(PACKAGE_ROOT, 'assets', 'bg-1.mp4');
 const VIDEO_ROUTE = '/aemeath-theme/bg-1.mp4';
-/* Scene 1 keeps the original route; extra clips get their own exact routes. */
+/* Lily only: two clips, each on its own exact route. */
 const SCENES = [
+  /* 「绮丽幻梦 · 莉莉」: Wallpaper Engine workshop 3843433489. */
   [VIDEO_ROUTE, VIDEO_FILE],
+  /* 「少女的梦 · 莉莉」: Wallpaper Engine workshop 3837817756, re-encoded to 1080p30. */
   ['/aemeath-theme/bg-2.mp4', path.join(PACKAGE_ROOT, 'assets', 'bg-2.mp4')],
-  ['/aemeath-theme/bg-3.mp4', path.join(PACKAGE_ROOT, 'assets', 'bg-3.mp4')],
-  ['/aemeath-theme/bg-4.mp4', path.join(PACKAGE_ROOT, 'assets', 'bg-4.mp4')],
-  ['/aemeath-theme/bg-5.mp4', path.join(PACKAGE_ROOT, 'assets', 'bg-5.mp4')],
-  /* 「少女的梦」: Wallpaper Engine workshop 3837817756, re-encoded to 1080p30. */
-  ['/aemeath-theme/bg-6.mp4', path.join(PACKAGE_ROOT, 'assets', 'bg-6.mp4')],
-  /* Boot animation: the 4K flower-field clip. */
-  ['/aemeath-theme/boot.mp4', path.join(PACKAGE_ROOT, 'assets', 'boot.mp4')],
 ];
 /* Optional pixel face: whichever of these exists under `assets/` is served at one extensionless route. */
 const FONT_ROUTE = '/aemeath-theme/pixel-font';

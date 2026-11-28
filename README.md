@@ -1,13 +1,13 @@
 # 莉莉 · 幽兰调香室（milkwhite-theme）
 
-《鸣潮》莉莉主题的 DeepSeek Harness 插件：像素窗框、全息立绘卡、4K 开屏、六段视频背景，以及一整套薰衣草紫 / 幽兰色 UI。
+《鸣潮》莉莉主题的 DeepSeek Harness 插件：像素窗框、全息立绘卡、4K 开屏、两段视频背景，以及一整套薰衣草紫 / 幽兰色 UI。
 
-An unofficial, non-commercial fan theme for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — pixel window frame, holographic portrait card, 4K splash, six looping video backdrops and an orchid-purple skin. Forked from [EITAOT/dsh-yeermu-theme](https://github.com/EITAOT/dsh-yeermu-theme).
+An unofficial, non-commercial fan theme for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — pixel window frame, holographic portrait card, 4K splash, two looping video backdrops and an orchid-purple skin. Forked from [EITAOT/dsh-yeermu-theme](https://github.com/EITAOT/dsh-yeermu-theme).
 
 ## 装之前
 
 - DSH `>= 0.2.2-rc.1`（`engines.dsh` 已声明）
-- 仓库约 100 MB（视频素材约 80 MB）：**首次安装会克隆整个仓库**，慢是正常的
+- 仓库约 20 MB（视频素材约 18 MB）：**首次安装会克隆整个仓库**，慢是正常的
 - 装完**需要重启一次**宿主，主题才会加载
 
 ## 安装
@@ -21,7 +21,7 @@ dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme
 或者用 Release 里的预构建包（免克隆）：
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme/releases/download/v2.1.2/milkwhite-theme.tgz
+dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme/releases/download/v2.1.3/milkwhite-theme.tgz
 ```
 
 桌面端也可以直接在插件市场里搜「莉莉」一键安装。
@@ -33,8 +33,8 @@ dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme/r
 | 像素窗框 | 顶部标题栏 + 三边框，纯浮层实现，不改应用视口 |
 | 侧栏 | 像素字标与打字机状态条，九句台词按序轮替 |
 | 输入框下三块 | 左「日历 · 天气」、中「全息终端」（立绘点击轮换 + 实时 tok/s）、右「系统监控」 |
-| 开屏动画 | 4K 花海开屏，可点击或按键跳过 |
-| 视频背景 | 六段可选（花海 1 / Springtide / Spring Reverie / 绮丽幻梦 · 莉莉 / 达妮娅 · 夏日窗边 / 少女的梦 · 莉莉），走 Host 的 Range 流式路由 |
+| 开屏动画 | 4K 莉莉开屏，可点击或按键跳过 |
+| 视频背景 | 两段可选（绮丽幻梦 · 莉莉 / 少女的梦 · 莉莉），走 Host 的 Range 流式路由 |
 | 消息气泡 | 粉紫渐变描边 + 外发光，跟随深浅模式 |
 | 设置分区 | 设置 → 莉莉：界面不透明度、背景视频强度与压暗、影片选择、固定台词、开屏动画与声音，以及角色扮演开关 |
 | 上下文压缩面板 | 设置 → 莉莉 末尾；**需另装 [`billion-context-dsh`](https://www.npmjs.com/package/billion-context-dsh)**，未装则不渲染 |
@@ -56,8 +56,8 @@ Host 侧路由（`index.js`）提供视频 Range 流、像素字体、天气、�
 ## 素材、署名与许可
 
 - 角色、世界观、台词与官方美术 © 库洛游戏（Kuro Games）
-- 背景视频与开屏壁纸均取自 Wallpaper Engine 创意工坊（应用 431960），作者为 B站 UP 主 **@炑月烟火**；「达妮娅 · 夏日窗边」为用户提供的静帧
-- 六段背景与开屏的创意工坊 ID、逐条溯源见 [CREDITS.md](CREDITS.md)
+- 背景视频与开屏壁纸均取自 Wallpaper Engine 创意工坊（应用 431960），作者为 B站 UP 主 **@炑月烟火**
+- 两段背景与开屏的创意工坊 ID、逐条溯源见 [CREDITS.md](CREDITS.md)
 - 本插件代码与样式：Fork 自 [EITAOT](https://github.com/EITAOT/dsh-yeermu-theme) 的曳尔沐主题，由 Evelyn 改造
 - 许可：[CC BY-NC 4.0](LICENSE) —— **禁止任何商业使用**
 

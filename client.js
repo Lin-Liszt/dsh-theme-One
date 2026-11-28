@@ -48,17 +48,13 @@ window.__ModuleLoader__.load({
 
     /* Backdrop: served by this package's Host half, mounted here so no boot-time injection is needed. */
     const BACKDROP_SRC = '/aemeath-theme/bg-1.mp4';
-    /* Scene index → clip. Index 1 reuses the original route so old links keep working. */
+    /* Scene index → clip. Lily only: 1 = 绮丽幻梦 · 莉莉, 2 = 少女的梦 · 莉莉. */
     const SCENE_SRC = [
       '/aemeath-theme/bg-1.mp4',
       '/aemeath-theme/bg-2.mp4',
-      '/aemeath-theme/bg-3.mp4',
-      '/aemeath-theme/bg-4.mp4',
-      '/aemeath-theme/bg-5.mp4',
-      '/aemeath-theme/bg-6.mp4',
     ];
-    const SCENE_COUNT = 6;
-    const SCENE_LABELS = ['花海 1', 'Springtide', 'Spring Reverie', '绮丽幻梦 · 莉莉', '达妮娅 · 夏日窗边', '少女的梦 · 莉莉'];
+    const SCENE_COUNT = 2;
+    const SCENE_LABELS = ['绮丽幻梦 · 莉莉', '少女的梦 · 莉莉'];
     /*
      * Per-clip framing. `object-position` Y picks which vertical slice of the clip fills the window:
      * 0% = the clip's top, 100% = its bottom. Raising it shows a lower slice, which moves a subject
@@ -74,7 +70,7 @@ window.__ModuleLoader__.load({
     }
 
     /* Boot animation: one full-screen clip per page load, skippable by a click or key press. */
-    const BOOT_SRC = '/aemeath-theme/bg-4.mp4';
+    const BOOT_SRC = '/aemeath-theme/bg-1.mp4';
     function bootSrcFor() { return BOOT_SRC; }
     const SPLASH_CSS = [
       '#aem-splash{position:fixed;inset:0;z-index:2147483600;overflow:hidden;background:#F2E8F8;cursor:pointer;opacity:1;transition:opacity .5s ease}',
