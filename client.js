@@ -1042,7 +1042,7 @@ window.__ModuleLoader__.load({
       '  border:1px solid #F0EDF5 !important;',
       '  box-shadow:0 8px 24px rgba(0,0,0,.08) !important;',
       '}',                  /* 底部主外壳：明亮二次元游戏 HUD（只改容器外观） */
-      '/* 鸣潮·莉莉调香室：哑光薰衣草卡片（无模糊、无死白；排版不动） */',
+      '/* 鸣潮·莉莉：哑光薰衣草卡片（无模糊、无死白；排版不动） */',
       '.aem-dock{',
       '  position:relative !important;',
       '  background-color:#EFE7F8 !important;',
@@ -3565,7 +3565,7 @@ window.__ModuleLoader__.load({
       '  border:1px solid #F0EDF5 !important;',
       '  box-shadow:0 8px 24px rgba(0,0,0,.08) !important;',
       '}',      /* 底部主外壳：明亮二次元游戏 HUD（只改容器外观） */
-      '/* 鸣潮·莉莉调香室：哑光薰衣草卡片（无模糊、无死白；排版不动） */',
+      '/* 鸣潮·莉莉：哑光薰衣草卡片（无模糊、无死白；排版不动） */',
       '.aem-dock{',
       '  position:relative !important;',
       '  background-color:#EFE7F8 !important;',
