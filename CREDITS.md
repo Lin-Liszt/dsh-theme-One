@@ -2,7 +2,7 @@
 
 ## 主题作者
 
-**Evelyn** —— 莉莉主题（`milkwhite-theme`）的设计、改造与打包。
+**Evelyn** —— 莉莉主题（`dsh-lily-theme-evelyn`）的设计、改造与打包。
 
 ## 上游作品
 

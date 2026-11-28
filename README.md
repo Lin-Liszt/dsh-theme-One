@@ -1,4 +1,4 @@
-# 莉莉 · 幽兰调香室（milkwhite-theme）
+# 莉莉 · 幽兰调香室（dsh-lily-theme-evelyn）
 
 《鸣潮》莉莉主题的 DeepSeek Harness 插件：像素窗框、全息立绘卡、4K 开屏、两段视频背景，以及一整套薰衣草紫 / 幽兰色 UI。
 
@@ -21,7 +21,7 @@ dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme
 或者用 Release 里的预构建包（免克隆）：
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme/releases/download/v2.1.3/milkwhite-theme.tgz
+dsh plugin --profile <profile> add https://github.com/Lin-Liszt/dsh-Lily-theme/releases/download/v2.2.0/dsh-lily-theme-evelyn.tgz
 ```
 
 桌面端也可以直接在插件市场里搜「莉莉」一键安装。
@@ -76,7 +76,7 @@ Host 侧路由（`index.js`）提供视频 Range 流、像素字体、天气、�
 发布新版本：
 
 ```sh
-node scripts/pack-release.mjs    # 产出 dist/milkwhite-theme.tgz 与 sha256
+node scripts/pack-release.mjs    # 产出 dist/dsh-lily-theme-evelyn.tgz 与 sha256
 ```
 
-`dist/milkwhite-theme.tgz` 保持不带版本号，市场条目用**带 tag 的固定地址**，下次发版不会 404。
+`dist/dsh-lily-theme-evelyn.tgz` 保持不带版本号，市场条目用**带 tag 的固定地址**，下次发版不会 404。

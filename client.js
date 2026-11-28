@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: 'milkwhite-theme',
+  id: 'dsh-lily-theme-evelyn',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -44,7 +44,7 @@ window.__ModuleLoader__.load({
     const WORDMARK = 'data:image/webp;base64,UklGRh4DAABXRUJQVlA4TBIDAAAvW8EQAK/EoG0jSXVujz/mDwTDtm0jp0q59yhs27YNmXbH/BNN29ipdGfsJAxVEwADEAOoiuE8V1V3WlUNQKigDcAEqEBAG6JNm1bQRlT9bOe5YALg/r9W16Z7EG1Emw8Cw7mHAJUAFRBDleraDAQMVQKG817XBoZiaAXw7F+VEy/wRxqIrwVUTrQR0D0I1ddcNQC0GgAEDAC/D8Ag4batM5K+tnts27Zt27Zt2877xV9S+SpTo290bkT/J8D9s+F+Weo+5emLZQ4mbTCW2Ze0bVjgLcpTy2Tt5h4fSHjOWS2mA1knseDrFTM06D1pb1VHqIVKW6SvZajuYrlfM05xx0gZcA4DRhDqJGknyTdXJzO/YHzkZOYclTKGzzIg4YRWaal26QMG3FeNvBPyznMy4EzFDOvl9ZK3lhAXBB9plEP6JOOCSiv1pYyHuIBdeIMBl9QTl9lJF/VA3UTqUbwOuB/Qn1t3Ma7KcV3GHUIs1w2METhGYNxAKtoeDLhCE67kdjrjMuOMHhiwEsdKDOiuEGsEK3CsxFitonVUgpHQS66MccZsvOE4RuDNIsQowWUcVzBGqmjTMOC4XFnjjGMY76mXo0EfMA4rRBOflNCVhI80qmgb5M0nNmnRJxmH5VKPYHykiXyOUxh7BcflKNpBvAmU54S885zMWUvMMF4GzFGaZMBYQiyUpc6neGflDaM8J/Hy1ytm2IzXR2n98DYSYqDS+utrGU5s8gjjiVxmFc8wHihEtV7IeE4VxTskb5LKcxSvA+4H82dWXwx4oZMlvpIBvZWv9KJtwltCXDIfL+Q8KskMeRcVl5xVqDOqJF3xYIjikXYSjJu4nLdkfKFNlQNOyLuldmKRiRiwRnnWYcBEKskAfcGA2xpGaZ3UqjhjB94o5RmNt4PizNXJzC8YHzmZOUdZMF2ef4ftLJO0VdeUMEVpJ+Sd52TAmYoPqniG8UlN5GlGMp6qiqJswwJvUSkwTo/l5d1G2km8sOsVHwzCgONyAU9jwCAqC9RrKjt1hzckvNM9DrCAHsQY//3/n7w=';
     /* Pixel floppy disc that stands in for the "new session" plus icon. */
     const FLOPPY = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFIklEQVR4nK1XS0hzRxSeezPxHYlaMT5+i0ENWvgRtUUQiiJSUMFNFYpQqxs33RXciqjgzlREF6ILyUKUivu6caMLpaBStKILAz4wPkl833tTvul/wmRM/rbRA5d778ycc745zxmNMcZ8Pt+3Pp9vNRAIPDudzqTW1tav3W532uTk5OrZ2ZmhaRrHunA4zDRNY0T4xphMtAbvpKQkPGHDMLTy8nL/8vLyl6FQCHOapmmCkU9MTPywsrJSsrGxwYLBoJ6RkcGqq6t/vLi4uN3f32cvLy9aamoqsywrSjEBgSLTNCNAbDab+Mbb7/ezm5sbjXOOsS+8Xu9Ppmn+qWnaHwMDA+HBwUFLa2xsDG9vb7OamhqhBIu3traYw+FgXV1drKysjHk8HgCJ2j0ph6K0tDSm67rgv7u7E2uzsrLY2NgYm5mZYQ0NDezh4cHc2dmx9fT0/DY9Pf394+OjbWFhgfHz83MTKC3L0g3DEIKCwaAF4YZh6E9PT+zx8fEVACiz2+3s+PiYzc/PCzAAD9AA//DwIHiwDnLtdruen59vbm5uftPc3Px7Z2fnz52dnX9xzrkNSsm0IF3XdQhTd6wS1tzc3LDFxcXIWHt7O3M6nVGx8SkeNI/HY9ve3v5wcHDwoa2t7bvV1dUcEVyqon9TrIJAsEFJcnKycEk8GQjA0tJSILNGRkZ+ra2tZVxGmQiBjwJUDsZY9AkUMsDm9/vDOTk5/wCIx4Rx+Yk1R4IBglxJoOS0VS3COddgOQEAjHJOI2ggACbFIgSbKoSCEGMINhCCFS4BH9I5JSXlFVD1zSmP5Z1kZ2cL5r29PQEuMzOTPT8/RwGgQgO/lpeXRwDd3t6K74uLCxYIBISsWAULOkXaqz7CREVFhUgjn88nchhgkN9kYhkExvr6+iL/l5eXDEVtamqKud1uVldXJ2SpAAgUjxUoMCkEV1dXizSbm5uLspLqDrUSgreqqkoUKNSRz2UVjxUgNJaXl8cODw/ZwcFBpMTK87JpKeAABlUQlZViSeZR+bmqmCoaJiGgpKREmFKu/fFA0zxlAeQQ4R/gVDlcbSww38nJifAbBaUaRPSvBmWsndI/4sjlcr1yFVeRg05PT4XvkU6yCVWh9FDOq/MEEhkEt+Tn54u18npODEAExUdHRyLii4qK2OjoqHCDHP3/pWLKFgNvf3+/kL22tibcWVBQENkwJ39RAEF5fX09q6ysZIWFhQmXaNkCLS0tbHd3VwCQsykqCOX06u7uFgCwe2ouiRI219vby3DmWF9fj+ggN3AVAAZR3fAgh2HCRK0gV0xYVs2gCABVgYhOzkUJVqvf/yXsFBkVS07MSihP3t/fv9kCsTJEJh4vb8GI9HkPC8AFscZFEKolVT5s5ubmvgsA+F8dg/xIOwahlcoRj3S5vr5+FwB03gBBBwocEccklKHhoJXKpRn0Fv8Tv2xhnBGQ3jTOyd+4hESlB+cMF5K3WoCCWQaAwwoB0IEG6TY8PMyam5s/22QSBQCijaAqDg0NsfT0dGF5blmWgeuX3++3oQGRRQCMOuJbiJoPNbWrqyvRb56enkzDMMI8KyuL4wSEIxT5HycZIIx1DEsEAA6odH1DP8Bjt9ttOC/ypqamX9xu91dLS0u9oVAIVzJ9fHxcAIjXiuncoJ6IVJJuWrjukbyww+HQOjo6JoqLi/fECq/X+3F2dnbr6urK4pyL+yBcQILjCZerZLw15FKkHw4lpmlaLpdLHxwc/Nja2rrzN0mxjCYOmnaQAAAAAElFTkSuQmCC';
-    const SOURCE = 'milkwhite-theme';
+    const SOURCE = 'dsh-lily-theme-evelyn';
 
     /* Backdrop: served by this package's Host half, mounted here so no boot-time injection is needed. */
     const BACKDROP_SRC = '/aemeath-theme/bg-1.mp4';
@@ -1565,7 +1565,7 @@ window.__ModuleLoader__.load({
           insertRaw();
         } catch (error) {
           lastMountError = String(error && error.message ? error.message : error);
-          console.error('[milkwhite-theme] backdrop mount failed', error);
+          console.error('[dsh-lily-theme-evelyn] backdrop mount failed', error);
         }
       }
 
@@ -1619,7 +1619,7 @@ window.__ModuleLoader__.load({
         video.addEventListener('loadeddata', start);
         video.addEventListener('canplay', start);
         video.addEventListener('error', function () {
-          console.error('[milkwhite-theme] backdrop video failed to load: ' + video.getAttribute('src'));
+          console.error('[dsh-lily-theme-evelyn] backdrop video failed to load: ' + video.getAttribute('src'));
         });
 
         wrap.appendChild(video);
@@ -1706,7 +1706,7 @@ window.__ModuleLoader__.load({
           try {
             togglePersona();
           } catch (error) {
-            console.warn('[milkwhite-theme] dial key failed:', error);
+            console.warn('[dsh-lily-theme-evelyn] dial key failed:', error);
           }
         });
         bar.appendChild(dialKey);
@@ -1762,7 +1762,7 @@ window.__ModuleLoader__.load({
 
         start();
         applyBackdropLook(lookState);
-        console.info('[milkwhite-theme] backdrop mounted');
+        console.info('[dsh-lily-theme-evelyn] backdrop mounted');
       }
 
       insert();
@@ -2477,14 +2477,14 @@ window.__ModuleLoader__.load({
         lastThemeError = null;
       } catch (error) {
         lastThemeError = String(error && error.message ? error.message : error);
-        console.error('[milkwhite-theme] token override failed', error);
+        console.error('[dsh-lily-theme-evelyn] token override failed', error);
       }
       /* Best effort: an unknown token name here must not cost us the base layer above. */
       try {
         extraOff = themeSeat.overrideTokens(SOURCE + '/surfaces', EXTRA_TOKENS);
       } catch (error) {
         extraOff = null;
-        console.error('[milkwhite-theme] surface token override rejected', error);
+        console.error('[dsh-lily-theme-evelyn] surface token override rejected', error);
       }
     }
 
@@ -2726,7 +2726,7 @@ window.__ModuleLoader__.load({
           return response.ok ? response.json() : null;
         })
         .then(function (json) {
-          if (json && json.ok === false) console.warn('[milkwhite-theme] persona:', json.error);
+          if (json && json.ok === false) console.warn('[dsh-lily-theme-evelyn] persona:', json.error);
         })
         .catch(function () {
           /* host half missing (older build) — the switch simply does nothing */
@@ -2748,7 +2748,7 @@ window.__ModuleLoader__.load({
         applyLook(next);
         painted = true;
       } catch (error) {
-        console.warn('[milkwhite-theme] persona UI update failed:', error);
+        console.warn('[dsh-lily-theme-evelyn] persona UI update failed:', error);
       }
       if (!painted) {
         try {
@@ -5418,7 +5418,7 @@ h(
                     try {
                       togglePersona();
                     } catch (error) {
-                      console.warn('[milkwhite-theme] persona toggle failed:', error);
+                      console.warn('[dsh-lily-theme-evelyn] persona toggle failed:', error);
                     }
                   },
                 },
@@ -6155,7 +6155,7 @@ h(
                 SettingsSection,
               );
             } catch (error) {
-              console.error('[milkwhite-theme] settings section registration failed', error);
+              console.error('[dsh-lily-theme-evelyn] settings section registration failed', error);
               return function () {};
             }
           });
@@ -6166,7 +6166,7 @@ h(
                 DockCard,
               );
             } catch (error) {
-              console.error('[milkwhite-theme] dock registration failed', error);
+              console.error('[dsh-lily-theme-evelyn] dock registration failed', error);
               return function () {};
             }
           });
@@ -6175,7 +6175,7 @@ h(
               /* Lower priority value wins a single-slot cell: the shipped mark registers at 0. */
               return ctx.slots.register({ name: 'sidebar.brand.mark', priority: 100 }, BrandMark);
             } catch (error) {
-              console.error('[milkwhite-theme] brand mark registration failed', error);
+              console.error('[dsh-lily-theme-evelyn] brand mark registration failed', error);
               return function () {};
             }
           });
@@ -6184,12 +6184,12 @@ h(
               /* Same rule for the wordmark: the shipped "deepseek HARNESS" text is the fallback. */
               return ctx.slots.register({ name: 'sidebar.brand.name', priority: 100 }, BrandName);
             } catch (error) {
-              console.error('[milkwhite-theme] brand name registration failed', error);
+              console.error('[dsh-lily-theme-evelyn] brand name registration failed', error);
               return function () {};
             }
           });
         } catch (error) {
-          console.error('[milkwhite-theme] apply failed', error);
+          console.error('[dsh-lily-theme-evelyn] apply failed', error);
         }
       },
     };

@@ -38,7 +38,7 @@ const FONT_CANDIDATES = [
   ['pixel.ttf', 'font/ttf'],
   ['pixel.otf', 'font/otf'],
 ];
-const NAME = 'milkwhite-theme';
+const NAME = 'dsh-lily-theme-evelyn';
 
 /*
  * Data for the two tiles beside the dock card. Neither can be read from the page: the renderer
