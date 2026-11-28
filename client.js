@@ -2123,20 +2123,17 @@ window.__ModuleLoader__.load({
         copy.className = 'aem-splash-copy';
         const kicker = document.createElement('span');
         kicker.className = 'k';
-        kicker.textContent = 'LILY \u00B7 ORCHID PERFUMERY';
+        kicker.textContent = 'LILY';
         const title = document.createElement('b');
         ['\u8389', '\u8389'].forEach(function (char) {
           const glyph = document.createElement('span');
           glyph.textContent = char;
           title.appendChild(glyph);
         });
-        const sub = document.createElement('i');
-        sub.textContent = '\u5E7D\u5170\u8C03\u9999\u5BA4';
         const quote = document.createElement('em');
         quote.textContent = '\u8FD9\u4E2A\u5473\u9053\uFF0C\u55EF\u2026\u2026\u5E0C\u671B\u8FD9\u6B21\uFF0C\u662F\u4E2A\u597D\u68A6';
         copy.appendChild(kicker);
         copy.appendChild(title);
-        copy.appendChild(sub);
         copy.appendChild(quote);
         layer.appendChild(copy);
 
@@ -6151,7 +6148,7 @@ h(
           ctx.slots.inject('settings.section', function () {
             try {
               return ctx.slots.register(
-                { name: 'settings.section', id: 'aemeath', order: 25, label: '莉莉 · 幽兰调香室' },
+                { name: 'settings.section', id: 'aemeath', order: 25, label: '莉莉' },
                 SettingsSection,
               );
             } catch (error) {

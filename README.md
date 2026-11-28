@@ -1,4 +1,4 @@
-# 莉莉 · 幽兰调香室（dsh-lily-theme-evelyn）
+# 莉莉（dsh-lily-theme-evelyn）
 
 《鸣潮》莉莉主题的 DeepSeek Harness 插件：像素窗框、全息立绘卡、4K 开屏、两段视频背景，以及一整套薰衣草紫 / 幽兰色 UI。
 
