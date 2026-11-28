@@ -1,10 +1,48 @@
 {
-  "name": "dsh-theme-one",
-  "version": "0.1.0",
-  "private": true,
+  "name": "milkwhite-theme",
+  "version": "2.1.2",
   "type": "module",
-  "description": "A DeepSeek Harness theme plugin (work in progress)",
-  "scripts": {
-    "pack": "node scripts/pack-release.mjs"
-  }
+  "description": "Lily (Orchid Perfumery) lavender theme for DSH: orchid-purple sidebar and dock, lily line-art, 4K splash, six backdrop clips and the full theme feature set.",
+  "license": "CC-BY-NC-4.0",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "assets/*",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE",
+    "CREDITS.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "author": "Evelyn",
+  "contributors": [
+    {
+      "name": "EITAOT",
+      "url": "https://github.com/EITAOT/dsh-yeermu-theme",
+      "comment": "original dsh-yeermu-theme this fork is based on"
+    }
+  ]
 }

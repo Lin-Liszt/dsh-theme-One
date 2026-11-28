@@ -1,0 +1,4 @@
+# milkwhite-theme bundle patch
+- insert:
+    - id: milkwhite-theme
+      name: 'milkwhite-theme'

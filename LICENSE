@@ -1,0 +1,35 @@
+# 许可证
+
+本主题（下称「本作品」，包名 `dsh-amice-theme`）采用
+
+**Creative Commons Attribution-NonCommercial 4.0 International（CC BY-NC 4.0）**
+
+- 协议全文（官方，以此为准）：https://creativecommons.org/licenses/by-nc/4.0/legalcode
+- 人类可读摘要：https://creativecommons.org/licenses/by-nc/4.0/
+
+## 署名链
+
+| 角色 | 署名 | 作品 |
+|---|---|---|
+| 原始作品 | **EITAOT** | `dsh-yeermu-theme`（曳尔沐主题）<br>https://github.com/EITAOT/dsh-yeermu-theme |
+| 本版本作者 | **Evelyn** | `dsh-amice-theme`（爱弥斯主题） |
+
+本作品基于 EITAOT 的曳尔沐主题的代码结构、样式骨架与构建方式改造而来，并做了大量修改：
+移除双皮肤机制、替换全部美术与视频素材、重写状态台词与角色卡、重做配色与面板样式、
+将拨号条目改为「联络 009072」、重新打包为独立插件。
+
+## 你被允许
+
+- 复制、分发、修改本作品
+- 用于个人学习、研究与欣赏
+
+## 你必须
+
+- **署名**：保留 EITAOT（原始作者）与 Evelyn（本版本作者）的署名
+- **注明修改**：说明本作品基于原作品修改而来
+- **非商业**：不得用于任何商业目的，包括售卖、付费分发、嵌入商业产品、以广告收益为目的的发布
+
+## 不在本许可证范围内的内容
+
+角色、世界观与美术素材的版权归库洛游戏及原权利方所有，**不由本许可证授权**。
+详见 [NOTICE.md](NOTICE.md) 与 [CREDITS.md](CREDITS.md)。
